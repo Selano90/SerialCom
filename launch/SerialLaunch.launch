@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="SerialCom" type="Serial" name="BMS" args="0 /dev/ttyS1 57600" output="screen" >
+  </node>
+</launch>
